@@ -1,4 +1,3 @@
-
 # sfbootstrap env for xiaomi-tissot
 VENDOR=xiaomi
 DEVICE=tissot
