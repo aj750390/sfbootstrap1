@@ -13,8 +13,8 @@ git config --global color.ui "auto"
 ```
 Then get `sfbootstrap`:
 ```bash
-git clone https://github.com/JamiKettunen/sfbootstrap.git
-cd sfbootstrap
+git clone https://github.com/aj75390/sfbootstrap1.git
+cd sfbootstrap1
 ```
 ### Existing (Hybris) ports
 ```bash
