@@ -13,9 +13,9 @@ SDK_RELEASE=3.7.4 # This might need adjustment based on actual SFOS SDK for Hybr
 
 REPOS_COMMON=(
     # Xiaomi Mi A1 common HAL
-    'https://github.com/Linux-On-Sdm6Series/device_xiaomi_tissot.git' device/xiaomi/tissot "lineage-$HYBRIS_VER" 1
-    'https://github.com/Linux-On-Sdm6Series/kernel_xiaomi_tissot.git' kernel/xiaomi/tissot "lineage-$HYBRIS_VER" 1
-    'https://github.com/Linux-On-Sdm6Series/vendor_xiaomi-tissot.git' vendor/xiaomi "lineage-$HYBRIS_VER" 1
+    'https://github.com/Linux-On-Sdm6Series/device_xiaomi_tissot.git' device/xiaomi/tissot "halium-9.0-4.9" 1
+    'https://github.com/Linux-On-Sdm6Series/kernel_xiaomi_tissot.git' kernel/xiaomi/tissot "halium-9.0-4.9" 1
+    'https://github.com/Linux-On-Sdm6Series/vendor_xiaomi-tissot.git' vendor/xiaomi "halium-9.0-4.9" 1
 
     # SFOS misc
     'https://github.com/mer-hybris/libhybris.git' external/libhybris '' 0
@@ -28,21 +28,12 @@ REPOS=(
     "${REPOS_COMMON[@]}"
     # SFOS adaptation
     'https://github.com/Linux-On-Sdm6Series/droid-hal-tissot.git' rpm '' 0
-    'https://github.com/Linux-On-Sdm6Series/droid-config-tissot.git' hybris/droid-configs '' 0
+    'https://github.com/Linux-On-Sdm6Series/droid-config-tissot.git' hybris/droid-configs "sailfishos-15.1" 0
     # 'https://github.com/Linux-On-Sdm6Series/droid-hal-version-tissot.git' hybris/droid-hal-version-tissot '' 0 # No droid-hal-version-tissot found
 )
 
 REPO_OVERRIDES=(
     # This project's path is already cloned to above 'mer-hybris/hybris-boot'
-)
-
-LINKS=(
-    'Sailfish OS Mi A1 Port (Linux-On-Sdm6Series)' 'https://github.com/orgs/Linux-On-Sdm6Series/repositories?q=tissot'
-    'XDA Mi A1 LineageOS 16' 'https://xdaforums.com/t/rom-9-x-unofficial-lineageos-16-0-xiaomi-mi-a1-tissot-eol.4092489/'
-    'GSMArena Xiaomi Mi A1' 'https://www.gsmarena.com/xiaomi_mi_a1_(mi_5x)-8776.php'
-)
-
-export VENDOR DEVICE PORT_ARCH RELEASE
 )
 
 LINKS=(
