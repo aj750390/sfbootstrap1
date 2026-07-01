@@ -43,3 +43,12 @@ LINKS=(
 )
 
 export VENDOR DEVICE PORT_ARCH RELEASE
+)
+
+LINKS=(
+    'Sailfish OS Mi A1 Port (Linux-On-Sdm6Series)' 'https://github.com/orgs/Linux-On-Sdm6Series/repositories?q=tissot'
+    'XDA Mi A1 LineageOS 16' 'https://xdaforums.com/t/rom-9-x-unofficial-lineageos-16-0-xiaomi-mi-a1-tissot-eol.4092489/'
+    'GSMArena Xiaomi Mi A1' 'https://www.gsmarena.com/xiaomi_mi_a1_(mi_5x)-8776.php'
+)
+
+export VENDOR DEVICE PORT_ARCH RELEASE
