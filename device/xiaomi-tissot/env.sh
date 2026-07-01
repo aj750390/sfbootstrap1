@@ -9,7 +9,7 @@ PORT_TYPE=hybris
 HYBRIS_VER=16.0
 HAL_MAKE_TARGETS=(hybris-hal droidmedia)
 RELEASE=4.4.0.72 # Assuming a recent Sailfish OS release for Hybris 16
-SDK_RELEASE=3.7.4 # This might need adjustment based on actual SFOS SDK for Hybris 16
+SDK_RELEASE=latest # This might need adjustment based on actual SFOS SDK for Hybris 16
 
 REPOS_COMMON=(
     # Xiaomi Mi A1 common HAL
